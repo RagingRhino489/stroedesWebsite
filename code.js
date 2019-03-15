@@ -47,6 +47,6 @@ onEvent("evilJohnson", "click", function() {
   setProperty("counterLabel", "text", counter);
   setPosition("evilJohnson", randomNumber(0, 205), randomNumber(0, 350), 100, 100);
 });
-if (counter >= 1000) {
+if (counter >= 100) {
   setScreen("winScreen");
 }
